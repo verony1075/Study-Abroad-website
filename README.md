@@ -1,5 +1,4 @@
 # Study-Abroad-website
-# Study Abroad Website
 
 This website was created using HTML and CSS to provide a platform for prospective international students who are interested in exploring colleges in the USA and finding scholarship opportunities. It offers valuable information about various colleges and majors while highlighting the importance of pursuing higher education in the United States.
 
