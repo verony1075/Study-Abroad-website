@@ -205,8 +205,9 @@ max-width: 100%;
         }
 
         h,h1 {
-            font-size: 24px;
+            font-size: 30px;
             color: #007BFF;
+            float:center;
         }
 
         p {
@@ -214,11 +215,15 @@ max-width: 100%;
             margin-bottom: 20px;
         }
  .selfie{
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     display: block;
     margin: 0 auto;
     border-radius: 50%;
+    width: 180px;
+    height: auto;
+    float: left;
+    margin-right: 40px; /* Add some spacing to the right of the image */
 }
 
 
