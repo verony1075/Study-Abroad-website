@@ -1,3 +1,5 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 *{
 	margin:0;
 	padding:0;
@@ -224,6 +226,10 @@ max-width: 100%;
     height: auto;
     float: left;
     margin-right: 40px; /* Add some spacing to the right of the image */
+}
+/* Example of a media query for smaller screens */
+@media (max-width: 768px) {
+    /* CSS styles for smaller screens go here */
 }
 
 
