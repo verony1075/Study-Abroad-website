@@ -185,7 +185,7 @@ max-width: 100%;
     text-align: left;
     background-color: #333; /* Background color for the footer */
     color: #fff; /* Text color for the footer */
-    padding: 10px;
+    padding: 80px;
 }
 /* Add this CSS to position the footer */
 .footer {
