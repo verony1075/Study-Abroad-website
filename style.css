@@ -6,6 +6,9 @@
 	font-family:"poppins",sans-serif;
 	box-sizing:border;
 }
+html {
+    scroll-behavior: smooth;
+}
 .banner{
 		height: 800px;
 		margin: 0;
