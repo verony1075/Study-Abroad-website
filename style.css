@@ -63,7 +63,7 @@ html {
     margin-left: 20px;
 }
 body {
-    background-color: #faf3e0; /* Light beige */
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6))
 }
 
 
@@ -232,7 +232,7 @@ max-width: 100%;
     margin-right: 40px; /* Add some spacing to the right of the image */
 }
 /* Example of a media query for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 168px) {
     /* CSS styles for smaller screens go here */
 }
 
