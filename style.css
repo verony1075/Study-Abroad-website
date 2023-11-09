@@ -203,7 +203,6 @@ max-width: 100%;
     margin-bottom: 20px;
 }
 .bodyAbout{
-        /*font-family: Arial, sans-serif;*/
         background-color: none;
         color: #333;
         margin: 0;
@@ -214,6 +213,7 @@ max-width: 100%;
             font-size: 30px;
             color: #007BFF;
             float:center;
+            margin-left: 400px;
         }
 
         p {
@@ -229,13 +229,61 @@ max-width: 100%;
     width: 180px;
     height: auto;
     float: left;
-    margin-right: 40px; /* Add some spacing to the right of the image */
+    margin-left: 40px;
+    margin-right: 60px;
 }
+.form-group{
+margin-left: 400px;
 
+}
+button[type="submit"] {
+    margin-left: 200px;
+}
 @media (max-width: 168px) {
-    /* CSS styles for smaller screens go here */
+
 }
 
+
+
+form {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+form .form-group {
+    margin-bottom: 20px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #2078b3;
+}
 
 
 
