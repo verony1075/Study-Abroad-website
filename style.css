@@ -10,12 +10,12 @@ html {
     scroll-behavior: smooth;
 }
 .banner{
-		height: 800px;
+		height: 400px;
 		margin: 0;
-    padding: 0;
-		background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Abroad.jpg);
-    background-position: auto;
+        padding: 0;
+
 		background-repeat: no-repeat;
+		 background-color: #1CC4B1;
 
 }
 .navbar{
@@ -28,8 +28,6 @@ html {
 }
 .logo{
 	width: 120px;
-	cursor: pointer;
-	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) url(logoof.jfif);
 }
 .navbar ul li {
 	list-style:  none;
@@ -73,7 +71,7 @@ body {
 
 .content{
 	  width:100%;
-		position: absolute;
+		position: flex;
 		top: 50%;
 		transform:translateY(-50%);
 		text-align: center;
@@ -81,12 +79,12 @@ body {
 
 }
 .content h1{
-	font-size: 70px;
-	margin-top: 80px;
+
+	margin-top: 3px;
 }
 .content p{
-	margin: 20px;
-	font-weight: 100;
+	margin: 10px;
+	font-weight: 20;
 	line-height: 25px;
 }
 button{
@@ -221,23 +219,26 @@ max-width: 100%;
             margin-bottom: 20px;
 
         }
-.content .main-heading {
-    font-size: 60px;
-     color: #007BFF;
+.main-heading {
+    font-size: 30px;
+    color: black;
     margin-right: 250px;
-    margin-left: 250px;
+   margin-left: 250px;
+
+
 }
 /* for the p in the class*/
 .content .color-context {
     font-size: 18px;
-    color: #333;
+    color: white;
     text-align: center;
     margin-left: 500px;
     margin-right: 500px;
     padding: 10px;
-    background-color: #f4f4f4;
+    background-color: black;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 300px;
+
   }
 
  .selfie{
