@@ -209,17 +209,24 @@ max-width: 100%;
         padding: 10px;
         }
 
-        h,h1 {
+        h1 {
             font-size: 30px;
             color: #007BFF;
             float:center;
-            margin-left: 400px;
+            margin-left: 680px;
         }
 
         p {
             font-size: 16px;
             margin-bottom: 20px;
+
         }
+.content.main-heading {
+    font-size: 36px;
+    color: #007BFF;
+    margin-left: 680px;
+}
+
  .selfie{
     max-width: 50%;
     height: auto;
@@ -233,7 +240,8 @@ max-width: 100%;
     margin-right: 60px;
 }
 .form-group{
-margin-left: 400px;
+margin-left: 100px;
+margin-right: 150px;
 
 }
 button[type="submit"] {
